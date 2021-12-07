@@ -1,6 +1,8 @@
 mod day1;
 mod day2;
 mod day3;
+mod day4;
+mod day5;
 mod read;
 
 fn day1_main() {
@@ -29,6 +31,14 @@ fn day3_part2_main() {
 
 }
 
+fn day4_main() {
+    day4::test_parse("./inputs/day4.txt");
+}
+
+fn day5_main() {
+    day5::test_map("./inputs/day5_trial.txt");
+
+}
 fn main() {
-    day3_part2_main();
+    day5_main();
 }

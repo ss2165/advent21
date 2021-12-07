@@ -1,5 +1,3 @@
-use std::{collections::vec_deque, io::WriterPanicked};
-
 use crate::read::read_lines;
 
 fn bitstr_iter(path: &str) -> impl Iterator<Item = Vec<bool>> + '_ {
