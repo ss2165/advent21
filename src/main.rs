@@ -36,7 +36,7 @@ fn day4_main() {
 }
 
 fn day5_main() {
-    day5::test_map("./inputs/day5_trial.txt");
+    day5::test_map("./inputs/day5.txt");
 
 }
 fn main() {

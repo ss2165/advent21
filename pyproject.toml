@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "advent21"
+version = "0.1.0"
+description = ""
+authors = ["seyon <seyon.sivarajah@cambridgequantum.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.21.4"
+scipy = "^1.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^21.12-beta.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
