@@ -1,0 +1,8 @@
+start:line+
+
+line: chunk+"\n"
+
+chunk: "<" chunk* ">"
+     | "(" chunk* ")"
+     | "{" chunk* "}"
+     | "[" chunk* "]"
