@@ -9,10 +9,15 @@ readme = "README.md"
 python = ">=3.10,<3.11"
 numpy = "^1.21.4"
 scipy = "^1.7.3"
+networkx = "^2.6.3"
+matplotlib = "^3.5.1"
+ipykernel = "^6.6.0"
+imageio = "^2.13.3"
 
 
 [tool.poetry.group.dev.dependencies]
 black = "^21.12-beta.0"
+pytest = "^6.2.5"
 
 [build-system]
 requires = ["poetry-core"]

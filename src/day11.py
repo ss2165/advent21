@@ -1,6 +1,5 @@
 import numpy as np
 import scipy.ndimage as ndimage
-import numpy.typing as npt
 
 NEIGHBOUR_KERNEL = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]], dtype=int)
 
