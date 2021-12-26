@@ -1,7 +1,6 @@
 from os import sep
 from typing import Iterator
 import numpy as np
-from numpy.lib.function_base import quantile
 from scipy.ndimage import generic_filter
 import imageio
 def byte_gen(s: str) -> Iterator[bytes]:
